@@ -1,6 +1,9 @@
-int main () {
-double area = 3.14 * 4 * 4;
-/* It prints the area
-of a circle of radius = 4 */
-print(area);
-return 0;}
+void main(){
+  int number1 = 10;
+  int number2 = 20;
+  int sum = number1 + number2;
+
+  print(sum);
+
+
+}
