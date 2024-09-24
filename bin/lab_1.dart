@@ -1,9 +1,7 @@
 void main(){
-  int number1 = 10;
-  int number2 = 20;
-  int sum = number1 + number2;
-
-  print(sum);
-
+String name = 'noorahmed';
+double floatedValue = 20.5;
+print(name);
+print(floatedValue);
 
 }
