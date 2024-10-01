@@ -47,6 +47,7 @@
 //   maptype['First'] = 'Noor';
 //   maptype['second'] = 'ahmed';
 //   print(maptype);
+ // 
 // }
 
 // import 'dart:io';
@@ -72,5 +73,35 @@
 // }
 
 
+// void main(){
+//   int a = 15;
+//   int b= 17;
+//   var sum = a+b;
+//   print(sum);
+// }
 
+// void main()
+// {
+//   double x = 10.5;
+//   double y = 3.2;
+//   double product = x*y;
+//   print(product);
 
+// }
+
+// void main(){
+//   double num = -8;
+//   print(num.abs());
+// }
+
+// void main(){
+//   double decimalNum = 7.3;
+//   print(decimalNum.ceil());
+//   print(decimalNum.floor()); 
+// }
+
+// void main(){
+//   var a = 10;
+//   var b = 20;
+//   print((a>b? '$a is greater' : '$b is greater'));
+// }
