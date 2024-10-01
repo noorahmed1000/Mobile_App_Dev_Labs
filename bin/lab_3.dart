@@ -31,4 +31,46 @@
 //   print(name.length);
 // }
 
+// void main(){
+//   dynamic mapType = new Map();
+//   print(mapType);
+// }
+
+// void main(){
+//   dynamic mapType = new Map();
+//   mapType['First'] = 'Noor Ahmed';
+//   print(mapType); 
+// }
+
+// void main(){
+//   dynamic maptype = new Map();
+//   maptype['First'] = 'Noor';
+//   maptype['second'] = 'ahmed';
+//   print(maptype);
+// }
+
+// import 'dart:io';
+
+// void main(){
+//   dynamic maptype = new Map();
+//   maptype['First'] = 'Noor';
+//   maptype['second'] = 'ahmed';
+//   maptype['hello world'] = 'hello';
+//   print(maptype);
+  
+// }
+
+// import 'dart:io';
+
+// void main(){
+//   dynamic maptype = new Map();
+//   maptype['First'] = 'Noor';
+//   maptype['second'] = 'ahmed';
+//   maptype['hello world'] = 'hello';
+//   print(maptype.length);
+  
+// }
+
+
+
 
