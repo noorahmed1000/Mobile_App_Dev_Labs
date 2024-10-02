@@ -105,3 +105,88 @@
 //   var b = 20;
 //   print((a>b? '$a is greater' : '$b is greater'));
 // }
+
+
+
+
+// void main()
+// {
+//   Set<int>nums ={};
+//   print(nums);
+// }
+
+// void main(){
+//   Set<int>nums={10,20,30};
+//   print(nums);
+// }
+
+// void main(){
+//   Set<int>nums={10,20,30};
+//   print(nums.remove(20));
+//   print(nums);
+// }
+
+// void main(){
+//   Set<int>nums={10,20,30};
+//   print(nums.contains(15));
+// }
+
+// void main()
+// {
+//   Set<int>otherset={20,30,40};
+//   print(otherset);
+// }
+
+// void main()
+// {
+//   Set<int>myset={10,20,30};
+//   Set<int>otherset={20,30,40};
+//   Set<int>unionset=myset.union(otherset);
+//   print(unionset);
+// }
+
+// void main()
+// {
+//   Set<int>myset={10,20,30};
+//   Set<int>otherset={20,30,40};
+//   Set<int>unionset=myset.intersection(otherset);
+//   print(unionset);
+// }
+
+
+// void main()
+// {
+//   Set<int>myset={10,20,30};
+//   Set<int>otherset={20,30,40};
+//   Set<int>unionset=myset.difference(otherset);
+//   print(unionset);
+// }
+
+
+// void main()
+// {
+//   Set<int>myset={10,20,30};
+//   print(myset);
+//   myset.forEach((element) => 10,);
+// }
+
+// void main()
+// {
+//   Set<String>employeeSet={'najaf','noor','saad'};
+//   List<String>employee_tst=employeeSet.toList();
+//   var employeemap = employeeSet.map((value){
+//     return '$value';
+//   });
+//   print(employee_tst);
+//   print(employeeSet);
+//   print(employeemap);
+// }
+
+
+
+
+
+
+
+
+
