@@ -182,6 +182,14 @@
 //   print(employeemap);
 // }
 
+// void main()
+// {
+//   var studentGrades = {'Alice':90, 'Bob':85,'Charlie':95};
+//   studentGrades['David']=88;
+//   studentGrades['Bob']=90;
+//   studentGrades.remove('Charlie');
+//   print(studentGrades);
+// }
 
 
 
