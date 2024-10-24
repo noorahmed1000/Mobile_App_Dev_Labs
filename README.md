@@ -1,1 +1,1 @@
-All the labs are in the bin folder 
+All the labs are in the lib folder 
