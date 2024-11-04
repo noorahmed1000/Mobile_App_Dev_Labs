@@ -25,7 +25,7 @@ void main(){
                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: Colors.blueAccent,
-                    borderRadius: BorderRadius.circular(200),
+                    borderRadius: BorderRadius.circular(250),
                   ),
                   child: Container(
                     width: 400,
@@ -43,7 +43,7 @@ void main(){
                       margin: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.green,
-                        borderRadius: BorderRadius.circular(200),
+                        borderRadius: BorderRadius.circular(150),
                       ),
                       child: Container(
                         width: 200,
@@ -52,7 +52,7 @@ void main(){
                         margin: EdgeInsets.all(10),
                         decoration: BoxDecoration(
                           color: Colors.grey,
-                          borderRadius: BorderRadius.circular(200),
+                          borderRadius: BorderRadius.circular(100),
                         ),
                         child: Container(
                           width: 100,
@@ -61,7 +61,7 @@ void main(){
                           margin: EdgeInsets.all(10),
                           decoration: BoxDecoration(
                             color: Colors.white,
-                            borderRadius: BorderRadius.circular(200),
+                            borderRadius: BorderRadius.circular(50),
                           ),
                         ),
                       ),
