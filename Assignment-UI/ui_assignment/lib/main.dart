@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Assignment UI'),
+      home: const MyHomePage(title: 'Assignment UI',),
     );
   }
 }
@@ -35,9 +35,14 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+        backgroundColor: Colors.black,
+        title: Text(widget.title, style: TextStyle(
+          color: Colors.white,
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),),
       ),
+      backgroundColor: Colors.black,
       body: SingleChildScrollView(
         // Scrollable Column
         child: Column(
@@ -55,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           width: 300,
                           height: 400,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: Colors.black,
                             border: Border.all(
                               color: Colors.red,
                               width: 2.0,
@@ -91,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   'he has won numerous awards and set records with clubs like Real Madrid, '
                                   'Manchester United, and Juventus.',
                                   style: TextStyle(
-                                    color: Colors.black,
+                                    color: Colors.white,
                                     fontSize: 20,
                                   ),
                                   softWrap: true,
@@ -109,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 100,
                         child: Container(
                           width: 200,
-                          height: 100,
+                          height: 200,
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.red,
@@ -169,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       style: TextStyle(
                                         fontSize: 15,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.black,
+                                        color: Colors.white,
                                       ),
                                     ),
                                   ),
@@ -184,7 +189,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       style: TextStyle(
                                         fontSize: 15,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.black,
+                                        color: Colors.white,
                                       ),
                                     ),
                                   ),
@@ -196,7 +201,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       style: TextStyle(
                                         fontSize: 15,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.black,
+                                        color: Colors.white,
                                       ),
                                     ),
                                   ),
@@ -247,6 +252,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
+                                    color: Colors.white,
                                   ),
                                   ),
                                 ],
@@ -266,6 +272,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       style: TextStyle(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
+                                        color: Colors.white,
                                       ),
                                       ),
                                 ],
@@ -285,6 +292,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       style: TextStyle(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
+                                        color: Colors.white,
                                       ),
                                       ),
                                 ],
@@ -324,7 +332,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             width: 200,
                             height: 50,
                             decoration: BoxDecoration(
-                              color: Colors.white,
+                              color: Colors.black,
                               border: Border.all(
                                 color: Colors.red,
                                 width: 2.0,
@@ -358,7 +366,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             width: 300,
                             height: 400,
                             decoration: BoxDecoration(
-                              color: Colors.white,
+                              color: Colors.black,
                               border: Border.all(
                                 color: Colors.red,
                                 width: 2.0,
@@ -382,7 +390,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'he has won numerous awards and set records with clubs like Real Madrid, '
                                 'Manchester United, and Juventus.',
                                 style: TextStyle(
-                                  color: Colors.black,
+                                  color: Colors.white,
                                   fontSize: 20,
                                 ),
                                 softWrap: true,
