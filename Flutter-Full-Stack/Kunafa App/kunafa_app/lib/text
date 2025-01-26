@@ -1,0 +1,30 @@
+  Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Container(
+                        height: 50,
+                        width: 230,
+                        decoration: BoxDecoration(
+                          color: Color(0xff92b423),
+                          border: Border.all(
+                            color: Colors.black,
+                            width: 3.0
+                          ),
+                          borderRadius: BorderRadius.circular(15),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.2),
+                              blurRadius: 10,
+                              offset: Offset(5, 5),
+                            )
+                          ]
+                        ),
+                        child: Text('Featured Baklawa',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                        ),
+                      ),
+                    ),
